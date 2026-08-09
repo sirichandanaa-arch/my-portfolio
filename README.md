@@ -4,7 +4,7 @@ A personal portfolio website showcasing my projects, technical skills, certifica
 
 ## 🌐 Live Portfolio
 
-https://my-portfolio-qz5yvdv4o-hack-hazardzz.vercel.app
+https://my-portfolio-ruddy-two-mxz89u3vnl.vercel.app
 
 ## 👩‍💻 About
 
