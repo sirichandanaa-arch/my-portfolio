@@ -562,6 +562,7 @@ export default function Home() {
               </div>
             </article>
 
+            
             <article className="group border-t border-zinc-800 py-10">
               <div className="grid gap-8 lg:grid-cols-[120px_1fr_260px] lg:items-start">
                 <div className="font-mono text-xs tracking-widest text-zinc-600">
@@ -574,9 +575,22 @@ export default function Home() {
                       BeeSkilled
                     </h3>
 
-                    <span className="border border-zinc-700 px-2 py-1 font-mono text-[9px] tracking-widest text-zinc-500">
-                      CURRENT
-                    </span>
+                    <a
+                      href="https://github.com/sirichandanaa-arch/Data-Analyst-Internship"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="BeeSkilled internship GitHub repository"
+                      className="text-zinc-400 transition-colors hover:text-cyan-400"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="h-4 w-4"
+                      >
+                        <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.85 10.91.57.1.78-.25.78-.55v-2.13c-3.19.69-3.86-1.54-3.86-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.73-1.53-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18A10.9 10.9 0 0 1 12 7.91c.97 0 1.94.13 2.85.38 2.18-1.49 3.14-1.18 3.14-1.18.62 1.59.23 2.77.11 3.06.73.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.39-5.25 5.67.41.36.78 1.08.78 2.18v3.23c0 .3.2.65.79.54A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
+                      </svg>
+                    </a>
                   </div>
 
                   <p className="mt-3 font-mono text-sm tracking-widest text-zinc-400">
@@ -584,8 +598,9 @@ export default function Home() {
                   </p>
 
                   <p className="mt-5 max-w-2xl leading-7 text-zinc-600">
-                    A remote internship focused on developing practical
-                    experience in data analysis.
+                    Worked on data analysis assignments involving data cleaning,
+                    exploratory analysis, visualization, and deriving insights
+                    from real-world datasets.
                   </p>
                 </div>
 
@@ -597,6 +612,7 @@ export default function Home() {
                 </div>
               </div>
             </article>
+
 
             <article className="group border-t border-zinc-800 py-10">
               <div className="grid gap-8 lg:grid-cols-[120px_1fr_260px] lg:items-start">
@@ -637,7 +653,7 @@ export default function Home() {
             <div className="border-t border-zinc-800 py-8 font-mono text-[10px] tracking-widest text-zinc-600">
               <div className="flex items-center justify-between">
                 <span>INTERNSHIPS IN PROGRESS</span>
-                <span className="text-cyan-400">03 ACTIVE</span>
+                <span className="text-cyan-400">02 ACTIVE</span>
               </div>
             </div>
           </div>
